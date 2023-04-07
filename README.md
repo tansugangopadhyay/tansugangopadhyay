@@ -4,7 +4,7 @@ Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-912
 UI/UX DESIGNER | CLOUD
 ----------------------
 
-* 🌍  I'm based in Chennai,India
+* 🌍  I'm based in Chennai , India
 * 🖥️  See my portfolio at [Tansu](http://tansugangopadhyay.github.io/github.io/)
 * 🧠  I'm learning Cloud Computing
 * 🤝  I'm open to collaborating on UI/UX Designing and Cloud

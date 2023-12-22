@@ -41,3 +41,5 @@ UI/UX DESIGNER | CLOUD
 <a href="http://www.github.com/tansugangopadhyay"><img src="https://github-readme-activity-graph.cyclic.app/graph?username=tansugangopadhyay&bg_color=000000&color=ffffff&line=22c55e&point=ffffff&area_color=000000&area=true&hide_border=true&custom_title=GitHub%20Commits%20Graph" alt="GitHub Commits Graph" /></a>
 
 <a href="https://github.com/tansugangopadhyay" align="left"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=tansugangopadhyay&langs_count=10&title_color=10b981&text_color=ffffff&icon_color=22c55e&bg_color=000000&hide_border=true&locale=en&custom_title=Top%20%Languages" alt="Top Languages" /></a>
+
+[![spotify-github-profile](https://spotify-github-profile.vercel.app/api/view?uid=jicwmfua2ik473af91ucn250n&cover_image=true&theme=default&show_offline=true&background_color=121212&interchange=true)](https://spotify-github-profile.vercel.app/api/view?uid=jicwmfua2ik473af91ucn250n&redirect=true)

@@ -115,8 +115,7 @@ Driven by a curiosity to extract meaningful insights from complex datasets, my p
 
 <br/>  
 
-[![spotify-github-profile](https://spotify-github-profile.vercel.app/api/view?uid=jicwmfua2ik473af91ucn250n&cover_image=true&theme=novatorem&show_offline=false&background_color=4bc359&interchange=false&bar_color=ffffff&bar_color_cover=false)](https://github.com/kittinan/spotify-github-profile)
-
+[![spotify-github-profile](https://spotify-github-profile.vercel.app/api/view?uid=jicwmfua2ik473af91ucn250n&cover_image=true&theme=novatorem&show_offline=true&background_color=ffffff&interchange=false&bar_color=53b14f&bar_color_cover=false)](https://spotify-github-profile.vercel.app/api/view?uid=jicwmfua2ik473af91ucn250n&redirect=true)
 <br />
 
 

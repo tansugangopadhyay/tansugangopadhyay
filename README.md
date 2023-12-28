@@ -41,7 +41,7 @@ Driven by a curiosity to extract meaningful insights from complex datasets, my p
 - ❓ Ask me about anything related to data models   
   
 
-- ⚡ Fun fact: I keep night shift swithed on at all times   
+- ⚡ Fun fact: I keep night shift switched on at all times   
 
 
 </td><td valign="top" width="50%">

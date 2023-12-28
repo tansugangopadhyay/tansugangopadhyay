@@ -52,7 +52,7 @@ Driven by a curiosity to extract meaningful insights from complex datasets, my p
 
 <br/>  
 
-[![GitHub Streak](https://streak-stats.demolab.com/?user=tansugangopadhyay)](https://git.io/streak-stats)
+
 
 ## Languages and Tools  
 <div align="center">  
@@ -107,7 +107,7 @@ Driven by a curiosity to extract meaningful insights from complex datasets, my p
 
 <br/>  
 
-  
+[![GitHub Streak](https://streak-stats.demolab.com/?user=tansugangopadhyay)](https://git.io/streak-stats)  
 
 <br/>  
 

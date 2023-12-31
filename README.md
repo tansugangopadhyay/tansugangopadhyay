@@ -107,7 +107,7 @@ Driven by a curiosity to extract meaningful insights from complex datasets, my p
 
 <br/>  
 
-[![GitHub Streak](https://streak-stats.demolab.com/?user=tansugangopadhyay)](https://git.io/streak-stats)  
+[![GitHub Streak](https://streak-stats.demolab.com?user=tansugangopadhyay&theme=dark&hide_border=true)](https://git.io/streak-stats)
 
 <br/>  
 

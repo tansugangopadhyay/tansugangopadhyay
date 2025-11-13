@@ -1,0 +1,44 @@
+# FILE:.github/workflows/snake.yml
+# This workflow generates the snake contribution graph animation
+
+name: Generate Snake Animation
+
+# This Action runs daily at midnight UTC and also on manual trigger (workflow_dispatch)
+on:
+  schedule:
+    # Runs at 00:00 UTC every day
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      # Step 1: Check out the repository's code so the Action can access it
+      - uses: actions/checkout@v3
+
+      # Step 2: Run the Snake Action
+      # This generates the two SVG files (light and dark mode)
+      - uses: Platane/snk@v3
+        with:
+          # Your GitHub username
+          github_user_name: tansugangopadhyay
+          
+          # The output files
+          # 'dist/github-snake.svg' is for light mode
+          # 'dist/github-snake-dark.svg?palette=github-dark' is for dark mode
+          outputs: |
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
+
+      # Step 3: Commit the generated SVG files back to the repository
+      # This step is crucial. It saves the new SVGs to the 'dist' folder.
+      # The README.md file then loads these *local* SVGs.
+      - uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir:./dist
+          # This configures the commit to be from the "github-actions" bot
+          user_name: 'github-actions[bot]'
+          user_email: 'github-actions[bot]@users.noreply.github.com'
+          commit_message: 'Generate new snake contribution graph'

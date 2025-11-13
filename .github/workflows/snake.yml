@@ -31,14 +31,10 @@ jobs:
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark
 
-      # Step 3: Commit the generated SVG files back to the repository
-      # This step is crucial. It saves the new SVGs to the 'dist' folder.
-      # The README.md file then loads these *local* SVGs.
-      - uses: peaceiris/actions-gh-pages@v3
+      # Step 3: Commit the generated SVG files back to the MAIN branch
+      # This action is designed to automatically add and commit files
+      - name: Commit snake files
+        uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist
-          # This configures the commit to be from the "github-actions" bot
-          user_name: 'github-actions[bot]'
-          user_email: 'github-actions[bot]@users.noreply.github.com'
           commit_message: 'Generate new snake contribution graph'
+          file_pattern: 'dist/*.svg'
